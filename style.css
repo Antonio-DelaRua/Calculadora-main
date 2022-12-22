@@ -1,12 +1,12 @@
-/* Importing Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
 
-/* Font settings */
+
 *{
     font-family: 'Spartan', sans-serif;
 }
 
-/* Cores */
+
 :root{
     --background          : #3a4764;
     --background-dark     : #232c43;
@@ -28,7 +28,6 @@
     --transition: 1s;
 }
 
-/* Background settings */
 .calc{
     background-color: var(--background);
     width: 100vw;
@@ -42,7 +41,7 @@
     transform: translate(-50%, -50%);
 }
 
-/* Top of the calculator */
+
 .calc-top h3{
     color: var(--key-color-top);
     transition: var(--transition);
@@ -109,7 +108,7 @@
     transition: var(--transition);
 }
 
-/* Keys hover animations */
+
 .calc-keys input:hover{
     border: 2px solid var(--key-background);
     color: var(--key-color-top);
@@ -129,7 +128,7 @@
     transition: 0.5s;
 }
 
-/* Keys activated */
+
 .calc-keys input:active{
     box-shadow: 3px 3px 3px var(--key-shadow);
     background-color: var(--key-background);
@@ -146,8 +145,7 @@
     color: var(--key-background);
 }
 
-/* Toggle theme button */
-/* Basics configs for styling input type range */
+
 input[type=range] {
     -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
     width: 100%; /* Specific width is required for Firefox. */
@@ -166,16 +164,13 @@ input[type=range]::-ms-track {
     width: 100%;
     cursor: pointer;
   
-    /* Hides the slider so custom styles can be added */
+   
     background: transparent; 
     border-color: transparent;
     color: transparent;
 }
 
-/* Styling Thumb for diferents browsers */
-/* thumb = circle on the range */
 
-/* WebKit/Blink */
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: none;
@@ -187,19 +182,8 @@ input[type=range]::-webkit-slider-thumb {
     box-shadow: 1px 1px 1px var(--key-red-shadow);
     transition: var(--transition);
 }
-/* Firefox */
-input[type=range]::-moz-range-thumb {
-    -webkit-appearance: none;
-    border: none;
-    height: 18px;
-    width: 18px;
-    border-radius: 20px;
-    background: var(--key-red-background);
-    cursor: pointer;
-    box-shadow: 1px 1px 1px var(--key-red-shadow);
-}
-  
-  /* IE */
+
+
 input[type=range]::-ms-thumb {
     -webkit-appearance: none;
     border: none;
@@ -210,7 +194,7 @@ input[type=range]::-ms-thumb {
     cursor: pointer;
     box-shadow: 1px 1px 1px var(--key-red-shadow);
 }
-/* Style for background */
+
 .toggle{
     background-color: var(--background-dark);
     border-radius: 25px;
@@ -218,9 +202,9 @@ input[type=range]::-ms-thumb {
     padding: 0 6px !important;
     transition: var(--transition);
 }
-/* This make user can click and drag the button */
+
 .toggle input{
     width: 100%;
 }
 
-/* ======================= Theme 2 ======================= */
+
